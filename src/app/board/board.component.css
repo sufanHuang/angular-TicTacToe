@@ -1,0 +1,32 @@
+.all{
+  text-align: center;
+  font-family: "Comic Sans MS";
+  background-color: darkcyan;
+}
+.title{
+  padding: 10px;
+}
+
+button{
+  background-color: darkgoldenrod;
+  border-radius: 3px;
+  height: 50px;
+  width: 300px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+app-moves {
+  border: 1px gray solid;
+  height: 200px;
+}
+h2{
+  color: darkred;
+}
